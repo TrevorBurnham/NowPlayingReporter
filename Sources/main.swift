@@ -105,6 +105,7 @@ class NowPlayingReporter: NSObject {
 
           if trackInfo != self.prevTrackInfo {
             print(self.serializeTrackInfo(trackInfo))
+            fflush(stdout)
             self.prevTrackInfo = trackInfo
           }
         }

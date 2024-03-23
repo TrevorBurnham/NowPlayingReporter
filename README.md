@@ -21,7 +21,7 @@ First, [install Swift](https://www.swift.org/install/). Then:
 swift build --configuration=release --arch arm64 --arch x86_64
 ```
 
-This will emit a unified binary to `build/apple/Products/Release/NowPlayingReporter`.
+This will emit a unified binary to `.build/apple/Products/Release/NowPlayingReporter`.
 
 ## Acknowledgments
 
